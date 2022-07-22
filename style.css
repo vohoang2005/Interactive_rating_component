@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Overpass", sans-serif;
     
 }
 
@@ -22,12 +23,8 @@ header .top_image {
     border-radius: 1.8rem;
     margin: 2.1rem;
     padding: 17px;
-    background-color: #D9D9D9;
+    background-color: hsl(213, 19%, 18%);
    
-}
-
-ul {
-    list-style-type: none;
 }
 
 h1 {
@@ -58,7 +55,7 @@ main p {
     flex-direction: row;
 }
 
-.content {
+.btn {
     width: 50px;
     height: 50px;
     margin-top: 2rem;
@@ -69,4 +66,39 @@ main p {
     justify-content: center;
     align-items: center;
     color: hsl(217, 12%, 63%);
+    border: none;
 }
+
+.submitbtn {
+    background-color: hsl(25, 97%, 53%);
+    width: 341px; height: 45px;
+    border-radius: 2rem;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 2.15rem;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.submitbtn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.hide {
+    position: absolute;
+    visibility: hidden;
+
+  }
